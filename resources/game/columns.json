@@ -1,0 +1,9 @@
+{
+    "id": "game id.",
+    "title": "game title or game name.",
+    "tags": "a string concatenated with several game tags because one game may have multiple tags, the seperator is a comma.",
+    "release_date": "release date of game.",
+    "price": "price of game.",
+    "description": "detailed game description.",
+    "visited_num": "how many times the game has been visited, indicates how popular the game is. Games with larger visited number are more popular."
+}

@@ -1,0 +1,8 @@
+{
+    "GAME_INFO_FILE": "games.ftr",
+    "TABLE_COL_DESC_FILE": "columns.json",
+    "MODEL_CKPT_FILE": "SASRec-SASRec.pth",
+    "ITEM_SIM_FILE": "item_sim.npy",
+    "USE_COLS": ["id", "title", "tags", "release_date", "price", "description", "visited_num"],
+    "CATEGORICAL_COLS": ["tags"]
+}

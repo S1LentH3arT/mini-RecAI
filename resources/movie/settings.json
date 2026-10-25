@@ -1,0 +1,8 @@
+{
+    "GAME_INFO_FILE": "movies.ftr",
+    "TABLE_COL_DESC_FILE": "columns.json",
+    "MODEL_CKPT_FILE": "SASRec-SASRec.pth",
+    "ITEM_SIM_FILE": "movie_sim.npy",
+    "USE_COLS": ["id", "title", "tags", "release_date", "visited_num"],
+    "CATEGORICAL_COLS": ["tags"]
+}

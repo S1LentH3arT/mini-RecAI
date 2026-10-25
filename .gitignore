@@ -1,0 +1,44 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+.recai/
+venv/
+build/
+dist/
+*.egg-info/
+.coverage*
+htmlcov/
+
+# Local credentials and agent/editor state
+.env
+.env.*
+!.env.example
+*.local.env
+.aws/
+.agents/
+.codex/
+.idea/
+.vscode/
+.DS_Store
+*Zone.Identifier
+
+# Downloaded datasets and trained model resources
+datasets/
+*.pth
+*.pt
+*.npy
+*.npz
+*.ftr
+*.parquet
+
+# Evaluation datasets and generated experiment outputs
+test/steam/*
+!test/steam/repro_first40/
+test/steam/repro_first40/*
+!test/steam/repro_first40/run.py
+!test/steam/repro_first40/self_check.py
+*.log

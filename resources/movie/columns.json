@@ -1,0 +1,7 @@
+{
+    "id": "movie id.",
+    "title": "movie title or movie name.",
+    "tags": "a string concatenated with several movie tags because one movie may have multiple tags, the seperator is a comma.",
+    "release_date": "release date of movie.",
+    "visited_num": "how many times the movie has been viewed, indicates how popular the movie is. Movies with larger visited_num are more popular."
+}

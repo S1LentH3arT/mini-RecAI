@@ -1,0 +1,9 @@
+{
+    "id": "beauty product id.",
+    "title": "product title.",
+    "category": "a string concatenated with several categories about beauty products, one product may have multiple tags, the seperator is a comma.",
+    "price": "price of product",
+    "description": "detailed description about the product.",
+    "brand": "brand of beauty products",
+    "visited_num": "how many times the products has been purchased, indicates how popular the product is. Product with larger visited number are more popular."
+}
