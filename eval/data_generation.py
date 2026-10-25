@@ -64,7 +64,7 @@ def run_generation(task, prepare, parse, argv=None):
     for path in (output, audit_path):
         if path.exists():
             parser.error(f'Refusing to overwrite {path}')
-    api_key = os.getenv('DASHSCOPE_API_KEY', 'sk-ws-H.PXDXLYY.wRgv.MEYCIQCcvKWydSrSKH5KPQTwzixBF1IZ_uv60sjfDw8JUXDcAAIhANEdb9cSgSBfYDV2hRDrNqP565abOo_kAj5FJP7BDKZY')
+    api_key = os.getenv('DASHSCOPE_API_KEY')
     if not api_key:
         parser.error('Set DASHSCOPE_API_KEY in the environment')
     catalog = pd.read_feather(args.catalog)
